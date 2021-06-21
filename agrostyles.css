@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.stimg {
+    padding-top: 4in;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+}
+
+.smallimg {
+    float: left;
+    margin-top: 26%;
+    width: 120px
+}
+
+.capture {
+    position: static;
+}
+
+.captureimg {
+    float: right;
+    margin-top: 80px;
+    width: 500px;
+    position: relative;
+}
+
+#navbar {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar :not(:first-child) {
+    padding-left: 10px;
+}
+
+.logo {
+    height: 75px;
+}
+
+.lname {
+    height: 40px;
+    margin: auto 0;
+}
+
+.agro-logo {
+    display: flex;
+}
+
+.nav-bars {
+    margin: auto 0;
+    padding-right: 10px;
+    scale: 0.9;
+}
+
+.nav-bars button {
+    padding: 3px 40px;
+    border-radius: 22px;
+    background: transparent;
+    border: 2px solid #0057FF;
+    color: #0057FF;
+    font-weight: bold;
+    margin: 25px;
+    font-size: 17px;
+    box-shadow: 2px 0px 13px rgba(0, 0, 0, 0.3);
+}
+
+.nav-bars img {
+    transform: translateY(9px);
+}
+
+.revolution {
+    position: static;
+    /* left: 36%;
+    top: 24%;
+    transform: translate(-50%, 50%); */
+    padding-top: 2in;
+}
+
+.revolution b {
+    font-size: 35pt;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.revolution h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blubtn {
+    padding: 10px 40px;
+    font-size: 15pt;
+    border-radius: 25px;
+    box-shadow: 2px 0px 13px rgba(0, 0, 0, 0.3);
+    background: #0057FF;
+    color: #fff;
+    border-style: none;
+}
+
+#farm-collection {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.about {
+    z-index: 1;
+    padding-top: 5em;
+    max-width: 700px;
+    font-size: 20px;
+    padding-left: 13em;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about p {
+    font-weight: 400;
+}
+
+.farmtemp img {
+    width: 473px;
+    position: relative;
+    padding-left: 0em;
+    height: 508px;
+    padding-top: 5em;
+}
+
+.about img {
+    width: 550px;
+    height: 497px;
+    position: relative;
+    right: 66%;
+}
+
+#blue-cont {
+    background-color: #0057FF;
+    position: relative;
+    margin-top: -10%;
+    z-index: 2;
+}
+
+#blue-cont img {
+    width: 77%;
+    display: block;
+    margin: 0 auto;
+    padding: 17% 0;
+}
+
+.card {
+    background-color: #0057FF;
+    width: 19em;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.ncard {
+    width: 19em;
+    text-align: center;
+    border-radius: 2em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 0px 10px rgba(0, 0, 255, 0.2);
+}
+
+.ncard img {
+    padding-top: 2em;
+}
+
+.ncard p {
+    color: #0057FF;
+    font-weight: 600;
+}
+
+.ncard ul {
+    color: #0057FF;
+    font-weight: 400;
+}
+
+.card img {
+    padding-top: 2em;
+}
+
+.card p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.card ul {
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#card-section {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: 4em;
+    margin-bottom: 6em;
+}
+
+#third h2 {
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+#third p {
+    max-width: 960px;
+    margin: 0 auto;
+    font-weight: 200;
+}
+
+#fourth {
+    background: #E7E9EB;
+}
+
+#fourth h2 {
+    padding-top: 6em;
+    font-size: 35px;
+    font-weight: 400;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+#fourth p {
+    max-width: 960px;
+    margin: 0 auto;
+    font-weight: 200;
+    padding-bottom: 4em;
+}
+
+.orange {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-bottom: 4em;
+}
+
+.orange img {
+    width: 100%;
+}
+
+#fifth {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 12em;
+}
+
+#fifth img {
+    height: 5em;
+}
+
+#fifth h1 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 30pt;
+}
+
+.sldimg img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+/* .gif img {
+    width: 550px;
+    height: 497px;
+}
+
+.gif {
+    position: absolute;
+    top: 87%;
+    right: 67%;
+    padding-right: 8%;
+} */
+
+/*
+.about {
+    margin: 0 0 0 auto;
+    padding-top: 19%;
+    font-size: 20px;
+    z-index: 1;
+    max-width: 540px;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.farmtemp img {
+    height: 61%;
+    height: 61%;
+    padding-top: 17%;
+}
+.farmtemp{
+    margin-left: 18%;
+}
+.gif {
+    position: absolute;
+    top: 74%;
+    right: 64%;
+    padding-right: 8%;
+}
+
+.gif img {
+    width: 550px;
+    height: 497px;
+} */
